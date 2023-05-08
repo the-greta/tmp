@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  padding: 7.5rem 0;
+}
+
+.title {
+  flex: 1;
+}
+
+.content {
+  flex: 2;
+}
+
+.content p {
+  margin-bottom: 3.75rem;
+}
+
+.content div {
+  height: 20rem;
+  position: relative;
+}
+.content div img {
+  object-fit: cover;
+}
+.content span {
+  font-size: 0.75rem;
+}
+
+@media (max-width: 700px) {
+  .container {
+    display: block;
+  }
+  .content div {
+    height: 16rem;
+  }
+}

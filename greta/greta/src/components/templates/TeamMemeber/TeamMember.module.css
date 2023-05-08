@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  padding: 7.5rem 0;
+}
+
+.title {
+  flex: 1;
+}
+
+.content {
+  flex: 2;
+}
+
+@media (max-width: 700px) {
+  .container {
+    display: block;
+  }
+}

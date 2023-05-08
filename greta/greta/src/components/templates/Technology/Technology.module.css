@@ -1,0 +1,15 @@
+.container {
+  padding: 7.5rem 0;
+}
+
+.container ul {
+  display: flex;
+  flex-direction: column;
+  gap: 4.5rem;
+  list-style: none;
+}
+
+.title {
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}

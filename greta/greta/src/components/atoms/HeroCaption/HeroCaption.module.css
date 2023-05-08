@@ -1,0 +1,22 @@
+.hero {
+  width: 100%;
+  /* padding-bottom: 6rem; */
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 0.5rem 0;
+}
+
+.hero sub {
+  font-size: 1.125rem;
+  font-weight: 700;
+  display: block;
+}
+
+.hero desc {
+  display: block;
+  white-space: pre-wrap;
+  line-height: 1.7;
+}

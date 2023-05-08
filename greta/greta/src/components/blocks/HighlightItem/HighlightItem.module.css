@@ -1,0 +1,13 @@
+.highlight {
+  flex: 1;
+}
+
+.highlight h3 {
+  font-size: 1.5rem;
+  padding: 0 0 1.25rem;
+}
+
+.highlight p {
+  line-height: 1.5;
+  margin: 1.25rem 0;
+}

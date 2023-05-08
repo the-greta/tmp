@@ -1,0 +1,36 @@
+.menu {
+  text-decoration: none;
+  color: inherit;
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.2s ease;
+}
+.menu svg {
+  margin-left: 0.25em;
+}
+.menu:hover {
+  opacity: 0.5;
+}
+
+.external {
+  text-decoration: none;
+}
+
+.detail {
+  text-decoration: none;
+  font-weight: 600;
+  white-space: nowrap;
+  color: inherit;
+}
+.detail:hover {
+  opacity: 1;
+}
+.detail::after {
+  content: '\00a0🡢';
+  position: relative;
+  display: inline-block;
+  transition: transform 300ms ease;
+}
+.detail:hover::after {
+  transform: translateX(6px);
+}
